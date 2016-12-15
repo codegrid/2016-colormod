@@ -930,3 +930,29 @@ pre {
   }
 }
 
+.colorModIntro {
+  .item {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding: 20px;
+    .label {
+      padding: 0 0 .4em;
+    }
+    .canvas {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+    }
+  }
+  .item.color1 {
+    .canvas {
+      background-color: red;
+    }
+  }
+  .item.color2 {
+    .canvas {
+      background-color: color(red shade(50%));
+    }
+  }
+}

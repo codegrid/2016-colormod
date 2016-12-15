@@ -13098,3 +13098,27 @@ pre code {
   background-color: rgba(204, 71, 85, 0.5);
 }
 
+.colorModIntro .item {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  padding: 20px;
+}
+
+.colorModIntro .item .label {
+  padding: 0 0 .4em;
+}
+
+.colorModIntro .item .canvas {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.colorModIntro .item.color1 .canvas {
+  background-color: red;
+}
+
+.colorModIntro .item.color2 .canvas {
+  background-color: rgb(128, 0, 0);
+}

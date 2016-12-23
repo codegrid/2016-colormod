@@ -21,20 +21,10 @@ $(function() {
   }());
 
   (function() {
-    var tmpl = $('#tmpl-zero100').html();
+    var tmpl = $('#tmpl-100ZeroMinus100').html();
     var selectors = [
       '[data-whiteness-test-container]',
       '[data-blackness-test-container]',
-    ].join(',');
-    $(selectors).each(function(i, el) {
-      var $container = $(el);
-      $container.html(tmpl);
-    });
-  }());
-
-  (function() {
-    var tmpl = $('#tmpl-100ZeroMinus100').html();
-    var selectors = [
       '[data-red-test-container]',
       '[data-green-test-container]',
       '[data-blue-test-container]',
@@ -285,7 +275,7 @@ $(function() {
   <div data-attach-box-label="100%" class="per100">The quick brown fox jumps over the lazy dog. </div>
 </script>
 </head>
-<body><div style="min-width:800px">
+<body><div style="min-width:1000px">
 
 <h1>color-mod(): HWB</h1>
 

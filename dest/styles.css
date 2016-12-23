@@ -11409,7 +11409,7 @@ pre code {
   border: 1px solid #000;
 }
 .lightnessTest-color2 .base {
-  background-color: rgb(102, 137, 201);
+  background-color: rgb(0, 0, 70);
   margin-right: 15px;
 }
 .lightnessTest-color2 .per100 {
@@ -11419,31 +11419,31 @@ pre code {
   background-color: rgb(255, 255, 255);
 }
 .lightnessTest-color2 .per80 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(224, 224, 255);
 }
 .lightnessTest-color2 .per70 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(173, 173, 255);
 }
 .lightnessTest-color2 .per60 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(122, 122, 255);
 }
 .lightnessTest-color2 .per50 {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(71, 71, 255);
 }
 .lightnessTest-color2 .per40 {
-  background-color: rgb(251, 252, 254);
+  background-color: rgb(20, 20, 255);
 }
 .lightnessTest-color2 .per30 {
-  background-color: rgb(213, 223, 240);
+  background-color: rgb(0, 0, 224);
 }
 .lightnessTest-color2 .per20 {
-  background-color: rgb(176, 194, 227);
+  background-color: rgb(0, 0, 173);
 }
 .lightnessTest-color2 .per10 {
-  background-color: rgb(138, 165, 214);
+  background-color: rgb(0, 0, 122);
 }
 .lightnessTest-color2 .per0 {
-  background-color: rgb(102, 137, 201);
+  background-color: rgb(0, 0, 70);
 }
 .lightnessTest-color2 .perMinus100 {
   background-color: rgb(0, 0, 0);
@@ -11461,19 +11461,19 @@ pre code {
   background-color: rgb(0, 0, 0);
 }
 .lightnessTest-color2 .perMinus50 {
-  background-color: rgb(12, 20, 34);
+  background-color: rgb(0, 0, 0);
 }
 .lightnessTest-color2 .perMinus40 {
-  background-color: rgb(25, 41, 72);
+  background-color: rgb(0, 0, 0);
 }
 .lightnessTest-color2 .perMinus30 {
-  background-color: rgb(38, 63, 109);
+  background-color: rgb(0, 0, 0);
 }
 .lightnessTest-color2 .perMinus20 {
-  background-color: rgb(52, 85, 147);
+  background-color: rgb(0, 0, 0);
 }
 .lightnessTest-color2 .perMinus10 {
-  background-color: rgb(65, 107, 185);
+  background-color: rgb(0, 0, 20);
 }
 .lightnessTest-color3 { padding: 20px 0 0; margin: 0 0 10px; }
 .lightnessTest-color3 > div {
@@ -13121,4 +13121,36 @@ pre code {
 
 .colorModIntro .item.color2 .canvas {
   background-color: rgb(128, 0, 0);
+}
+
+.moduleExA {
+  border-left: 5px solid rgb(205, 72, 85);
+  padding: 14px 20px;
+  margin: 0 0 20px;
+}
+
+.moduleExA-1 {
+  background: rgb(247, 227, 229);
+}
+.moduleExA-2 {
+  background: rgb(250, 224, 227);
+}
+.moduleExA-3 {
+  background: rgb(245, 218, 221);
+}
+
+.moduleExB {
+  border-left: 5px solid #e0ce53;
+  padding: 14px 20px;
+  margin: 0 0 20px;
+}
+
+.moduleExB-1 {
+  background: rgb(246, 241, 213);
+}
+.moduleExB-2 {
+  background: rgb(250, 245, 212);
+}
+.moduleExB-3 {
+  background: rgb(249, 245, 221);
 }

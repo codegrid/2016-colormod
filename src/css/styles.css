@@ -618,7 +618,7 @@ pre {
   .perMinus10 { background-color: color($color lightness(-10%)); }
 }
 .lightnessTest-color1 { @mixin lightnessTest rgb(205, 72, 85); }
-.lightnessTest-color2 { @mixin lightnessTest rgb(102, 137, 201); }
+.lightnessTest-color2 { @mixin lightnessTest rgb(0, 0, 70); }
 .lightnessTest-color3 { @mixin lightnessTest rgb(58, 172, 117); }
 .lightnessTest-color4 { @mixin lightnessTest rgb(205, 163, 72); }
 
@@ -955,4 +955,40 @@ pre {
       background-color: color(red shade(50%));
     }
   }
+}
+
+$baseRed: rgb(205, 72, 85);
+
+.moduleExA {
+  border-left: 5px solid $baseRed;
+  padding: 14px 20px;
+  margin: 0 0 20px;
+}
+
+.moduleExA-1 {
+  background: color($baseRed lightness(+39%));
+}
+.moduleExA-2 {
+  background: color($baseRed whiteness(+60%) blackness(-18%));
+}
+.moduleExA-3 {
+  background: color($baseRed tint(80%));
+}
+
+$baseYellow: #e0ce53;
+
+.moduleExB {
+  border-left: 5px solid $baseYellow;
+  padding: 14px 20px;
+  margin: 0 0 20px;
+}
+
+.moduleExB-1 {
+  background: color($baseYellow lightness(+30%) saturation(-5%));
+}
+.moduleExB-2 {
+  background: color($baseYellow whiteness(+50%) blackness(-10%));
+}
+.moduleExB-3 {
+  background: color($baseYellow tint(80%));
 }

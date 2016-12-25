@@ -20,11 +20,11 @@ pre code {
   position: absolute;
   display: block;
   top: -20px;
-  font-size: .7em;
+  font-size: .6em;
   line-height: 1.2;
-  left: 0;
-  right: 0;
-  width: 100%;
+  white-space: nowrap;
+  left: -10px;
+  right:-10px;
   text-align: center;
 }
 
@@ -9792,68 +9792,68 @@ pre code {
   background-color: rgb(205, 72, 85);
   margin-right: 15px;
 }
-.redTest-color1 .per100 {
+.redTest-color1 .numPlus100 {
   background-color: rgb(255, 72, 85);
 }
-.redTest-color1 .per90 {
+.redTest-color1 .numPlus90 {
   background-color: rgb(255, 72, 85);
 }
-.redTest-color1 .per80 {
+.redTest-color1 .numPlus80 {
   background-color: rgb(255, 72, 85);
 }
-.redTest-color1 .per70 {
+.redTest-color1 .numPlus70 {
   background-color: rgb(255, 72, 85);
 }
-.redTest-color1 .per60 {
+.redTest-color1 .numPlus60 {
   background-color: rgb(255, 72, 85);
 }
-.redTest-color1 .per50 {
+.redTest-color1 .numPlus50 {
   background-color: rgb(255, 72, 85);
 }
-.redTest-color1 .per40 {
-  background-color: rgb(255, 72, 85);
+.redTest-color1 .numPlus40 {
+  background-color: rgb(245, 72, 85);
 }
-.redTest-color1 .per30 {
-  background-color: rgb(255, 72, 85);
+.redTest-color1 .numPlus30 {
+  background-color: rgb(235, 72, 85);
 }
-.redTest-color1 .per20 {
-  background-color: rgb(246, 72, 85);
+.redTest-color1 .numPlus20 {
+  background-color: rgb(225, 72, 85);
 }
-.redTest-color1 .per10 {
-  background-color: rgb(226, 72, 85);
+.redTest-color1 .numPlus10 {
+  background-color: rgb(215, 72, 85);
 }
-.redTest-color1 .per0 {
+.redTest-color1 .numPlus0 {
   background-color: rgb(205, 72, 85);
 }
-.redTest-color1 .perMinus100 {
-  background-color: rgb(0, 72, 85);
+.redTest-color1 .numMinus100 {
+  background-color: rgb(105, 72, 85);
 }
-.redTest-color1 .perMinus90 {
-  background-color: rgb(21, 72, 85);
+.redTest-color1 .numMinus90 {
+  background-color: rgb(115, 72, 85);
 }
-.redTest-color1 .perMinus80 {
-  background-color: rgb(41, 72, 85);
+.redTest-color1 .numMinus80 {
+  background-color: rgb(125, 72, 85);
 }
-.redTest-color1 .perMinus70 {
-  background-color: rgb(62, 72, 85);
+.redTest-color1 .numMinus70 {
+  background-color: rgb(135, 72, 85);
 }
-.redTest-color1 .perMinus60 {
-  background-color: rgb(82, 72, 85);
+.redTest-color1 .numMinus60 {
+  background-color: rgb(145, 72, 85);
 }
-.redTest-color1 .perMinus50 {
-  background-color: rgb(103, 72, 85);
+.redTest-color1 .numMinus50 {
+  background-color: rgb(155, 72, 85);
 }
-.redTest-color1 .perMinus40 {
-  background-color: rgb(123, 72, 85);
+.redTest-color1 .numMinus40 {
+  background-color: rgb(165, 72, 85);
 }
-.redTest-color1 .perMinus30 {
-  background-color: rgb(144, 72, 85);
+.redTest-color1 .numMinus30 {
+  background-color: rgb(175, 72, 85);
 }
-.redTest-color1 .perMinus20 {
-  background-color: rgb(164, 72, 85);
-}
-.redTest-color1 .perMinus10 {
+.redTest-color1 .numMinus20 {
   background-color: rgb(185, 72, 85);
+}
+.redTest-color1 .numMinus10 {
+  background-color: rgb(195, 72, 85);
 }
 .redTest-color2 { padding: 20px 0 0; margin: 0 0 10px; }
 .redTest-color2 > div {
@@ -9868,67 +9868,67 @@ pre code {
   background-color: rgb(102, 137, 201);
   margin-right: 15px;
 }
-.redTest-color2 .per100 {
-  background-color: rgb(204, 137, 201);
+.redTest-color2 .numPlus100 {
+  background-color: rgb(202, 137, 201);
 }
-.redTest-color2 .per90 {
-  background-color: rgb(194, 137, 201);
+.redTest-color2 .numPlus90 {
+  background-color: rgb(192, 137, 201);
 }
-.redTest-color2 .per80 {
-  background-color: rgb(184, 137, 201);
+.redTest-color2 .numPlus80 {
+  background-color: rgb(182, 137, 201);
 }
-.redTest-color2 .per70 {
-  background-color: rgb(173, 137, 201);
+.redTest-color2 .numPlus70 {
+  background-color: rgb(172, 137, 201);
 }
-.redTest-color2 .per60 {
-  background-color: rgb(163, 137, 201);
+.redTest-color2 .numPlus60 {
+  background-color: rgb(162, 137, 201);
 }
-.redTest-color2 .per50 {
-  background-color: rgb(153, 137, 201);
+.redTest-color2 .numPlus50 {
+  background-color: rgb(152, 137, 201);
 }
-.redTest-color2 .per40 {
-  background-color: rgb(143, 137, 201);
+.redTest-color2 .numPlus40 {
+  background-color: rgb(142, 137, 201);
 }
-.redTest-color2 .per30 {
-  background-color: rgb(133, 137, 201);
+.redTest-color2 .numPlus30 {
+  background-color: rgb(132, 137, 201);
 }
-.redTest-color2 .per20 {
+.redTest-color2 .numPlus20 {
   background-color: rgb(122, 137, 201);
 }
-.redTest-color2 .per10 {
+.redTest-color2 .numPlus10 {
   background-color: rgb(112, 137, 201);
 }
-.redTest-color2 .per0 {
+.redTest-color2 .numPlus0 {
   background-color: rgb(102, 137, 201);
 }
-.redTest-color2 .perMinus100 {
-  background-color: rgb(0, 137, 201);
+.redTest-color2 .numMinus100 {
+  background-color: rgb(2, 137, 201);
 }
-.redTest-color2 .perMinus90 {
-  background-color: rgb(10, 137, 201);
+.redTest-color2 .numMinus90 {
+  background-color: rgb(12, 137, 201);
 }
-.redTest-color2 .perMinus80 {
-  background-color: rgb(20, 137, 201);
+.redTest-color2 .numMinus80 {
+  background-color: rgb(22, 137, 201);
 }
-.redTest-color2 .perMinus70 {
-  background-color: rgb(31, 137, 201);
+.redTest-color2 .numMinus70 {
+  background-color: rgb(32, 137, 201);
 }
-.redTest-color2 .perMinus60 {
-  background-color: rgb(41, 137, 201);
+.redTest-color2 .numMinus60 {
+  background-color: rgb(42, 137, 201);
 }
-.redTest-color2 .perMinus50 {
-  background-color: rgb(51, 137, 201);
+.redTest-color2 .numMinus50 {
+  background-color: rgb(52, 137, 201);
 }
-.redTest-color2 .perMinus40 {
-  background-color: rgb(61, 137, 201);
+.redTest-color2 .numMinus40 {
+  background-color: rgb(62, 137, 201);
 }
-.redTest-color2 .perMinus30 {
-  background-color: rgb(71, 137, 201);
+.redTest-color2 .numMinus30 {
+  background-color: rgb(72, 137, 201);
 }
-.redTest-color2 .perMinus20 {
+.redTest-color2 .numMinus20 {
   background-color: rgb(82, 137, 201);
 }
-.redTest-color2 .perMinus10 {
+.redTest-color2 .numMinus10 {
   background-color: rgb(92, 137, 201);
 }
 .redTest-color3 { padding: 20px 0 0; margin: 0 0 10px; }
@@ -9944,68 +9944,68 @@ pre code {
   background-color: rgb(58, 172, 117);
   margin-right: 15px;
 }
-.redTest-color3 .per100 {
-  background-color: rgb(116, 172, 117);
+.redTest-color3 .numPlus100 {
+  background-color: rgb(158, 172, 117);
 }
-.redTest-color3 .per90 {
-  background-color: rgb(110, 172, 117);
+.redTest-color3 .numPlus90 {
+  background-color: rgb(148, 172, 117);
 }
-.redTest-color3 .per80 {
-  background-color: rgb(104, 172, 117);
+.redTest-color3 .numPlus80 {
+  background-color: rgb(138, 172, 117);
 }
-.redTest-color3 .per70 {
-  background-color: rgb(99, 172, 117);
+.redTest-color3 .numPlus70 {
+  background-color: rgb(128, 172, 117);
 }
-.redTest-color3 .per60 {
-  background-color: rgb(93, 172, 117);
+.redTest-color3 .numPlus60 {
+  background-color: rgb(118, 172, 117);
 }
-.redTest-color3 .per50 {
-  background-color: rgb(87, 172, 117);
+.redTest-color3 .numPlus50 {
+  background-color: rgb(108, 172, 117);
 }
-.redTest-color3 .per40 {
-  background-color: rgb(81, 172, 117);
+.redTest-color3 .numPlus40 {
+  background-color: rgb(98, 172, 117);
 }
-.redTest-color3 .per30 {
-  background-color: rgb(75, 172, 117);
+.redTest-color3 .numPlus30 {
+  background-color: rgb(88, 172, 117);
 }
-.redTest-color3 .per20 {
-  background-color: rgb(70, 172, 117);
+.redTest-color3 .numPlus20 {
+  background-color: rgb(78, 172, 117);
 }
-.redTest-color3 .per10 {
-  background-color: rgb(64, 172, 117);
+.redTest-color3 .numPlus10 {
+  background-color: rgb(68, 172, 117);
 }
-.redTest-color3 .per0 {
+.redTest-color3 .numPlus0 {
   background-color: rgb(58, 172, 117);
 }
-.redTest-color3 .perMinus100 {
+.redTest-color3 .numMinus100 {
   background-color: rgb(0, 172, 117);
 }
-.redTest-color3 .perMinus90 {
-  background-color: rgb(6, 172, 117);
+.redTest-color3 .numMinus90 {
+  background-color: rgb(0, 172, 117);
 }
-.redTest-color3 .perMinus80 {
-  background-color: rgb(12, 172, 117);
+.redTest-color3 .numMinus80 {
+  background-color: rgb(0, 172, 117);
 }
-.redTest-color3 .perMinus70 {
-  background-color: rgb(17, 172, 117);
+.redTest-color3 .numMinus70 {
+  background-color: rgb(0, 172, 117);
 }
-.redTest-color3 .perMinus60 {
-  background-color: rgb(23, 172, 117);
+.redTest-color3 .numMinus60 {
+  background-color: rgb(0, 172, 117);
 }
-.redTest-color3 .perMinus50 {
-  background-color: rgb(29, 172, 117);
+.redTest-color3 .numMinus50 {
+  background-color: rgb(8, 172, 117);
 }
-.redTest-color3 .perMinus40 {
-  background-color: rgb(35, 172, 117);
+.redTest-color3 .numMinus40 {
+  background-color: rgb(18, 172, 117);
 }
-.redTest-color3 .perMinus30 {
-  background-color: rgb(41, 172, 117);
+.redTest-color3 .numMinus30 {
+  background-color: rgb(28, 172, 117);
 }
-.redTest-color3 .perMinus20 {
-  background-color: rgb(46, 172, 117);
+.redTest-color3 .numMinus20 {
+  background-color: rgb(38, 172, 117);
 }
-.redTest-color3 .perMinus10 {
-  background-color: rgb(52, 172, 117);
+.redTest-color3 .numMinus10 {
+  background-color: rgb(48, 172, 117);
 }
 .redTest-color4 { padding: 20px 0 0; margin: 0 0 10px; }
 .redTest-color4 > div {
@@ -10020,68 +10020,68 @@ pre code {
   background-color: rgb(205, 163, 72);
   margin-right: 15px;
 }
-.redTest-color4 .per100 {
+.redTest-color4 .numPlus100 {
   background-color: rgb(255, 163, 72);
 }
-.redTest-color4 .per90 {
+.redTest-color4 .numPlus90 {
   background-color: rgb(255, 163, 72);
 }
-.redTest-color4 .per80 {
+.redTest-color4 .numPlus80 {
   background-color: rgb(255, 163, 72);
 }
-.redTest-color4 .per70 {
+.redTest-color4 .numPlus70 {
   background-color: rgb(255, 163, 72);
 }
-.redTest-color4 .per60 {
+.redTest-color4 .numPlus60 {
   background-color: rgb(255, 163, 72);
 }
-.redTest-color4 .per50 {
+.redTest-color4 .numPlus50 {
   background-color: rgb(255, 163, 72);
 }
-.redTest-color4 .per40 {
-  background-color: rgb(255, 163, 72);
+.redTest-color4 .numPlus40 {
+  background-color: rgb(245, 163, 72);
 }
-.redTest-color4 .per30 {
-  background-color: rgb(255, 163, 72);
+.redTest-color4 .numPlus30 {
+  background-color: rgb(235, 163, 72);
 }
-.redTest-color4 .per20 {
-  background-color: rgb(246, 163, 72);
+.redTest-color4 .numPlus20 {
+  background-color: rgb(225, 163, 72);
 }
-.redTest-color4 .per10 {
-  background-color: rgb(226, 163, 72);
+.redTest-color4 .numPlus10 {
+  background-color: rgb(215, 163, 72);
 }
-.redTest-color4 .per0 {
+.redTest-color4 .numPlus0 {
   background-color: rgb(205, 163, 72);
 }
-.redTest-color4 .perMinus100 {
-  background-color: rgb(0, 163, 72);
+.redTest-color4 .numMinus100 {
+  background-color: rgb(105, 163, 72);
 }
-.redTest-color4 .perMinus90 {
-  background-color: rgb(21, 163, 72);
+.redTest-color4 .numMinus90 {
+  background-color: rgb(115, 163, 72);
 }
-.redTest-color4 .perMinus80 {
-  background-color: rgb(41, 163, 72);
+.redTest-color4 .numMinus80 {
+  background-color: rgb(125, 163, 72);
 }
-.redTest-color4 .perMinus70 {
-  background-color: rgb(62, 163, 72);
+.redTest-color4 .numMinus70 {
+  background-color: rgb(135, 163, 72);
 }
-.redTest-color4 .perMinus60 {
-  background-color: rgb(82, 163, 72);
+.redTest-color4 .numMinus60 {
+  background-color: rgb(145, 163, 72);
 }
-.redTest-color4 .perMinus50 {
-  background-color: rgb(103, 163, 72);
+.redTest-color4 .numMinus50 {
+  background-color: rgb(155, 163, 72);
 }
-.redTest-color4 .perMinus40 {
-  background-color: rgb(123, 163, 72);
+.redTest-color4 .numMinus40 {
+  background-color: rgb(165, 163, 72);
 }
-.redTest-color4 .perMinus30 {
-  background-color: rgb(144, 163, 72);
+.redTest-color4 .numMinus30 {
+  background-color: rgb(175, 163, 72);
 }
-.redTest-color4 .perMinus20 {
-  background-color: rgb(164, 163, 72);
-}
-.redTest-color4 .perMinus10 {
+.redTest-color4 .numMinus20 {
   background-color: rgb(185, 163, 72);
+}
+.redTest-color4 .numMinus10 {
+  background-color: rgb(195, 163, 72);
 }
 .greenTest-color1 { padding: 20px 0 0; margin: 0 0 10px; }
 .greenTest-color1 > div {
@@ -10096,68 +10096,68 @@ pre code {
   background-color: rgb(205, 72, 85);
   margin-right: 15px;
 }
-.greenTest-color1 .per100 {
-  background-color: rgb(205, 144, 85);
+.greenTest-color1 .numPlus100 {
+  background-color: rgb(205, 172, 85);
 }
-.greenTest-color1 .per90 {
-  background-color: rgb(205, 137, 85);
+.greenTest-color1 .numPlus90 {
+  background-color: rgb(205, 162, 85);
 }
-.greenTest-color1 .per80 {
-  background-color: rgb(205, 130, 85);
+.greenTest-color1 .numPlus80 {
+  background-color: rgb(205, 152, 85);
 }
-.greenTest-color1 .per70 {
+.greenTest-color1 .numPlus70 {
+  background-color: rgb(205, 142, 85);
+}
+.greenTest-color1 .numPlus60 {
+  background-color: rgb(205, 132, 85);
+}
+.greenTest-color1 .numPlus50 {
   background-color: rgb(205, 122, 85);
 }
-.greenTest-color1 .per60 {
-  background-color: rgb(205, 115, 85);
+.greenTest-color1 .numPlus40 {
+  background-color: rgb(205, 112, 85);
 }
-.greenTest-color1 .per50 {
-  background-color: rgb(205, 108, 85);
+.greenTest-color1 .numPlus30 {
+  background-color: rgb(205, 102, 85);
 }
-.greenTest-color1 .per40 {
-  background-color: rgb(205, 101, 85);
+.greenTest-color1 .numPlus20 {
+  background-color: rgb(205, 92, 85);
 }
-.greenTest-color1 .per30 {
-  background-color: rgb(205, 94, 85);
+.greenTest-color1 .numPlus10 {
+  background-color: rgb(205, 82, 85);
 }
-.greenTest-color1 .per20 {
-  background-color: rgb(205, 86, 85);
-}
-.greenTest-color1 .per10 {
-  background-color: rgb(205, 79, 85);
-}
-.greenTest-color1 .per0 {
+.greenTest-color1 .numPlus0 {
   background-color: rgb(205, 72, 85);
 }
-.greenTest-color1 .perMinus100 {
+.greenTest-color1 .numMinus100 {
   background-color: rgb(205, 0, 85);
 }
-.greenTest-color1 .perMinus90 {
-  background-color: rgb(205, 7, 85);
+.greenTest-color1 .numMinus90 {
+  background-color: rgb(205, 0, 85);
 }
-.greenTest-color1 .perMinus80 {
-  background-color: rgb(205, 14, 85);
+.greenTest-color1 .numMinus80 {
+  background-color: rgb(205, 0, 85);
 }
-.greenTest-color1 .perMinus70 {
+.greenTest-color1 .numMinus70 {
+  background-color: rgb(205, 2, 85);
+}
+.greenTest-color1 .numMinus60 {
+  background-color: rgb(205, 12, 85);
+}
+.greenTest-color1 .numMinus50 {
   background-color: rgb(205, 22, 85);
 }
-.greenTest-color1 .perMinus60 {
-  background-color: rgb(205, 29, 85);
+.greenTest-color1 .numMinus40 {
+  background-color: rgb(205, 32, 85);
 }
-.greenTest-color1 .perMinus50 {
-  background-color: rgb(205, 36, 85);
+.greenTest-color1 .numMinus30 {
+  background-color: rgb(205, 42, 85);
 }
-.greenTest-color1 .perMinus40 {
-  background-color: rgb(205, 43, 85);
+.greenTest-color1 .numMinus20 {
+  background-color: rgb(205, 52, 85);
 }
-.greenTest-color1 .perMinus30 {
-  background-color: rgb(205, 50, 85);
-}
-.greenTest-color1 .perMinus20 {
-  background-color: rgb(205, 58, 85);
-}
-.greenTest-color1 .perMinus10 {
-  background-color: rgb(205, 65, 85);
+.greenTest-color1 .numMinus10 {
+  background-color: rgb(205, 62, 85);
 }
 .greenTest-color2 { padding: 20px 0 0; margin: 0 0 10px; }
 .greenTest-color2 > div {
@@ -10172,68 +10172,68 @@ pre code {
   background-color: rgb(102, 137, 201);
   margin-right: 15px;
 }
-.greenTest-color2 .per100 {
-  background-color: rgb(102, 255, 201);
+.greenTest-color2 .numPlus100 {
+  background-color: rgb(102, 237, 201);
 }
-.greenTest-color2 .per90 {
-  background-color: rgb(102, 255, 201);
+.greenTest-color2 .numPlus90 {
+  background-color: rgb(102, 227, 201);
 }
-.greenTest-color2 .per80 {
-  background-color: rgb(102, 247, 201);
+.greenTest-color2 .numPlus80 {
+  background-color: rgb(102, 217, 201);
 }
-.greenTest-color2 .per70 {
-  background-color: rgb(102, 233, 201);
+.greenTest-color2 .numPlus70 {
+  background-color: rgb(102, 207, 201);
 }
-.greenTest-color2 .per60 {
-  background-color: rgb(102, 219, 201);
+.greenTest-color2 .numPlus60 {
+  background-color: rgb(102, 197, 201);
 }
-.greenTest-color2 .per50 {
-  background-color: rgb(102, 206, 201);
+.greenTest-color2 .numPlus50 {
+  background-color: rgb(102, 187, 201);
 }
-.greenTest-color2 .per40 {
-  background-color: rgb(102, 192, 201);
+.greenTest-color2 .numPlus40 {
+  background-color: rgb(102, 177, 201);
 }
-.greenTest-color2 .per30 {
-  background-color: rgb(102, 178, 201);
+.greenTest-color2 .numPlus30 {
+  background-color: rgb(102, 167, 201);
 }
-.greenTest-color2 .per20 {
-  background-color: rgb(102, 164, 201);
+.greenTest-color2 .numPlus20 {
+  background-color: rgb(102, 157, 201);
 }
-.greenTest-color2 .per10 {
-  background-color: rgb(102, 151, 201);
+.greenTest-color2 .numPlus10 {
+  background-color: rgb(102, 147, 201);
 }
-.greenTest-color2 .per0 {
+.greenTest-color2 .numPlus0 {
   background-color: rgb(102, 137, 201);
 }
-.greenTest-color2 .perMinus100 {
-  background-color: rgb(102, 0, 201);
+.greenTest-color2 .numMinus100 {
+  background-color: rgb(102, 37, 201);
 }
-.greenTest-color2 .perMinus90 {
-  background-color: rgb(102, 14, 201);
+.greenTest-color2 .numMinus90 {
+  background-color: rgb(102, 47, 201);
 }
-.greenTest-color2 .perMinus80 {
-  background-color: rgb(102, 27, 201);
+.greenTest-color2 .numMinus80 {
+  background-color: rgb(102, 57, 201);
 }
-.greenTest-color2 .perMinus70 {
-  background-color: rgb(102, 41, 201);
+.greenTest-color2 .numMinus70 {
+  background-color: rgb(102, 67, 201);
 }
-.greenTest-color2 .perMinus60 {
-  background-color: rgb(102, 55, 201);
+.greenTest-color2 .numMinus60 {
+  background-color: rgb(102, 77, 201);
 }
-.greenTest-color2 .perMinus50 {
-  background-color: rgb(102, 69, 201);
+.greenTest-color2 .numMinus50 {
+  background-color: rgb(102, 87, 201);
 }
-.greenTest-color2 .perMinus40 {
-  background-color: rgb(102, 82, 201);
+.greenTest-color2 .numMinus40 {
+  background-color: rgb(102, 97, 201);
 }
-.greenTest-color2 .perMinus30 {
-  background-color: rgb(102, 96, 201);
+.greenTest-color2 .numMinus30 {
+  background-color: rgb(102, 107, 201);
 }
-.greenTest-color2 .perMinus20 {
-  background-color: rgb(102, 110, 201);
+.greenTest-color2 .numMinus20 {
+  background-color: rgb(102, 117, 201);
 }
-.greenTest-color2 .perMinus10 {
-  background-color: rgb(102, 123, 201);
+.greenTest-color2 .numMinus10 {
+  background-color: rgb(102, 127, 201);
 }
 .greenTest-color3 { padding: 20px 0 0; margin: 0 0 10px; }
 .greenTest-color3 > div {
@@ -10248,68 +10248,68 @@ pre code {
   background-color: rgb(58, 172, 117);
   margin-right: 15px;
 }
-.greenTest-color3 .per100 {
+.greenTest-color3 .numPlus100 {
   background-color: rgb(58, 255, 117);
 }
-.greenTest-color3 .per90 {
+.greenTest-color3 .numPlus90 {
   background-color: rgb(58, 255, 117);
 }
-.greenTest-color3 .per80 {
-  background-color: rgb(58, 255, 117);
+.greenTest-color3 .numPlus80 {
+  background-color: rgb(58, 252, 117);
 }
-.greenTest-color3 .per70 {
-  background-color: rgb(58, 255, 117);
+.greenTest-color3 .numPlus70 {
+  background-color: rgb(58, 242, 117);
 }
-.greenTest-color3 .per60 {
-  background-color: rgb(58, 255, 117);
+.greenTest-color3 .numPlus60 {
+  background-color: rgb(58, 232, 117);
 }
-.greenTest-color3 .per50 {
-  background-color: rgb(58, 255, 117);
+.greenTest-color3 .numPlus50 {
+  background-color: rgb(58, 222, 117);
 }
-.greenTest-color3 .per40 {
-  background-color: rgb(58, 241, 117);
+.greenTest-color3 .numPlus40 {
+  background-color: rgb(58, 212, 117);
 }
-.greenTest-color3 .per30 {
-  background-color: rgb(58, 224, 117);
+.greenTest-color3 .numPlus30 {
+  background-color: rgb(58, 202, 117);
 }
-.greenTest-color3 .per20 {
-  background-color: rgb(58, 206, 117);
+.greenTest-color3 .numPlus20 {
+  background-color: rgb(58, 192, 117);
 }
-.greenTest-color3 .per10 {
-  background-color: rgb(58, 189, 117);
+.greenTest-color3 .numPlus10 {
+  background-color: rgb(58, 182, 117);
 }
-.greenTest-color3 .per0 {
+.greenTest-color3 .numPlus0 {
   background-color: rgb(58, 172, 117);
 }
-.greenTest-color3 .perMinus100 {
-  background-color: rgb(58, 0, 117);
+.greenTest-color3 .numMinus100 {
+  background-color: rgb(58, 72, 117);
 }
-.greenTest-color3 .perMinus90 {
-  background-color: rgb(58, 17, 117);
+.greenTest-color3 .numMinus90 {
+  background-color: rgb(58, 82, 117);
 }
-.greenTest-color3 .perMinus80 {
-  background-color: rgb(58, 34, 117);
+.greenTest-color3 .numMinus80 {
+  background-color: rgb(58, 92, 117);
 }
-.greenTest-color3 .perMinus70 {
-  background-color: rgb(58, 52, 117);
+.greenTest-color3 .numMinus70 {
+  background-color: rgb(58, 102, 117);
 }
-.greenTest-color3 .perMinus60 {
-  background-color: rgb(58, 69, 117);
+.greenTest-color3 .numMinus60 {
+  background-color: rgb(58, 112, 117);
 }
-.greenTest-color3 .perMinus50 {
-  background-color: rgb(58, 86, 117);
+.greenTest-color3 .numMinus50 {
+  background-color: rgb(58, 122, 117);
 }
-.greenTest-color3 .perMinus40 {
-  background-color: rgb(58, 103, 117);
+.greenTest-color3 .numMinus40 {
+  background-color: rgb(58, 132, 117);
 }
-.greenTest-color3 .perMinus30 {
-  background-color: rgb(58, 120, 117);
+.greenTest-color3 .numMinus30 {
+  background-color: rgb(58, 142, 117);
 }
-.greenTest-color3 .perMinus20 {
-  background-color: rgb(58, 138, 117);
+.greenTest-color3 .numMinus20 {
+  background-color: rgb(58, 152, 117);
 }
-.greenTest-color3 .perMinus10 {
-  background-color: rgb(58, 155, 117);
+.greenTest-color3 .numMinus10 {
+  background-color: rgb(58, 162, 117);
 }
 .greenTest-color4 { padding: 20px 0 0; margin: 0 0 10px; }
 .greenTest-color4 > div {
@@ -10324,68 +10324,68 @@ pre code {
   background-color: rgb(205, 163, 72);
   margin-right: 15px;
 }
-.greenTest-color4 .per100 {
+.greenTest-color4 .numPlus100 {
   background-color: rgb(205, 255, 72);
 }
-.greenTest-color4 .per90 {
-  background-color: rgb(205, 255, 72);
+.greenTest-color4 .numPlus90 {
+  background-color: rgb(205, 253, 72);
 }
-.greenTest-color4 .per80 {
-  background-color: rgb(205, 255, 72);
+.greenTest-color4 .numPlus80 {
+  background-color: rgb(205, 243, 72);
 }
-.greenTest-color4 .per70 {
-  background-color: rgb(205, 255, 72);
+.greenTest-color4 .numPlus70 {
+  background-color: rgb(205, 233, 72);
 }
-.greenTest-color4 .per60 {
-  background-color: rgb(205, 255, 72);
+.greenTest-color4 .numPlus60 {
+  background-color: rgb(205, 223, 72);
 }
-.greenTest-color4 .per50 {
-  background-color: rgb(205, 245, 72);
+.greenTest-color4 .numPlus50 {
+  background-color: rgb(205, 213, 72);
 }
-.greenTest-color4 .per40 {
-  background-color: rgb(205, 228, 72);
+.greenTest-color4 .numPlus40 {
+  background-color: rgb(205, 203, 72);
 }
-.greenTest-color4 .per30 {
-  background-color: rgb(205, 212, 72);
+.greenTest-color4 .numPlus30 {
+  background-color: rgb(205, 193, 72);
 }
-.greenTest-color4 .per20 {
-  background-color: rgb(205, 196, 72);
+.greenTest-color4 .numPlus20 {
+  background-color: rgb(205, 183, 72);
 }
-.greenTest-color4 .per10 {
-  background-color: rgb(205, 179, 72);
+.greenTest-color4 .numPlus10 {
+  background-color: rgb(205, 173, 72);
 }
-.greenTest-color4 .per0 {
+.greenTest-color4 .numPlus0 {
   background-color: rgb(205, 163, 72);
 }
-.greenTest-color4 .perMinus100 {
-  background-color: rgb(205, 0, 72);
+.greenTest-color4 .numMinus100 {
+  background-color: rgb(205, 63, 72);
 }
-.greenTest-color4 .perMinus90 {
-  background-color: rgb(205, 16, 72);
+.greenTest-color4 .numMinus90 {
+  background-color: rgb(205, 73, 72);
 }
-.greenTest-color4 .perMinus80 {
-  background-color: rgb(205, 33, 72);
+.greenTest-color4 .numMinus80 {
+  background-color: rgb(205, 83, 72);
 }
-.greenTest-color4 .perMinus70 {
-  background-color: rgb(205, 49, 72);
+.greenTest-color4 .numMinus70 {
+  background-color: rgb(205, 93, 72);
 }
-.greenTest-color4 .perMinus60 {
-  background-color: rgb(205, 65, 72);
+.greenTest-color4 .numMinus60 {
+  background-color: rgb(205, 103, 72);
 }
-.greenTest-color4 .perMinus50 {
-  background-color: rgb(205, 82, 72);
+.greenTest-color4 .numMinus50 {
+  background-color: rgb(205, 113, 72);
 }
-.greenTest-color4 .perMinus40 {
-  background-color: rgb(205, 98, 72);
+.greenTest-color4 .numMinus40 {
+  background-color: rgb(205, 123, 72);
 }
-.greenTest-color4 .perMinus30 {
-  background-color: rgb(205, 114, 72);
+.greenTest-color4 .numMinus30 {
+  background-color: rgb(205, 133, 72);
 }
-.greenTest-color4 .perMinus20 {
-  background-color: rgb(205, 130, 72);
+.greenTest-color4 .numMinus20 {
+  background-color: rgb(205, 143, 72);
 }
-.greenTest-color4 .perMinus10 {
-  background-color: rgb(205, 147, 72);
+.greenTest-color4 .numMinus10 {
+  background-color: rgb(205, 153, 72);
 }
 .blueTest-color1 { padding: 20px 0 0; margin: 0 0 10px; }
 .blueTest-color1 > div {
@@ -10400,68 +10400,68 @@ pre code {
   background-color: rgb(205, 72, 85);
   margin-right: 15px;
 }
-.blueTest-color1 .per100 {
-  background-color: rgb(205, 72, 170);
+.blueTest-color1 .numPlus100 {
+  background-color: rgb(205, 72, 185);
 }
-.blueTest-color1 .per90 {
-  background-color: rgb(205, 72, 162);
+.blueTest-color1 .numPlus90 {
+  background-color: rgb(205, 72, 175);
 }
-.blueTest-color1 .per80 {
-  background-color: rgb(205, 72, 153);
+.blueTest-color1 .numPlus80 {
+  background-color: rgb(205, 72, 165);
 }
-.blueTest-color1 .per70 {
+.blueTest-color1 .numPlus70 {
+  background-color: rgb(205, 72, 155);
+}
+.blueTest-color1 .numPlus60 {
   background-color: rgb(205, 72, 145);
 }
-.blueTest-color1 .per60 {
-  background-color: rgb(205, 72, 136);
+.blueTest-color1 .numPlus50 {
+  background-color: rgb(205, 72, 135);
 }
-.blueTest-color1 .per50 {
-  background-color: rgb(205, 72, 128);
+.blueTest-color1 .numPlus40 {
+  background-color: rgb(205, 72, 125);
 }
-.blueTest-color1 .per40 {
-  background-color: rgb(205, 72, 119);
+.blueTest-color1 .numPlus30 {
+  background-color: rgb(205, 72, 115);
 }
-.blueTest-color1 .per30 {
-  background-color: rgb(205, 72, 111);
+.blueTest-color1 .numPlus20 {
+  background-color: rgb(205, 72, 105);
 }
-.blueTest-color1 .per20 {
-  background-color: rgb(205, 72, 102);
+.blueTest-color1 .numPlus10 {
+  background-color: rgb(205, 72, 95);
 }
-.blueTest-color1 .per10 {
-  background-color: rgb(205, 72, 94);
-}
-.blueTest-color1 .per0 {
+.blueTest-color1 .numPlus0 {
   background-color: rgb(205, 72, 85);
 }
-.blueTest-color1 .perMinus100 {
+.blueTest-color1 .numMinus100 {
   background-color: rgb(205, 72, 0);
 }
-.blueTest-color1 .perMinus90 {
-  background-color: rgb(205, 72, 9);
+.blueTest-color1 .numMinus90 {
+  background-color: rgb(205, 72, 0);
 }
-.blueTest-color1 .perMinus80 {
-  background-color: rgb(205, 72, 17);
+.blueTest-color1 .numMinus80 {
+  background-color: rgb(205, 72, 5);
 }
-.blueTest-color1 .perMinus70 {
-  background-color: rgb(205, 72, 26);
+.blueTest-color1 .numMinus70 {
+  background-color: rgb(205, 72, 15);
 }
-.blueTest-color1 .perMinus60 {
-  background-color: rgb(205, 72, 34);
+.blueTest-color1 .numMinus60 {
+  background-color: rgb(205, 72, 25);
 }
-.blueTest-color1 .perMinus50 {
-  background-color: rgb(205, 72, 43);
+.blueTest-color1 .numMinus50 {
+  background-color: rgb(205, 72, 35);
 }
-.blueTest-color1 .perMinus40 {
-  background-color: rgb(205, 72, 51);
+.blueTest-color1 .numMinus40 {
+  background-color: rgb(205, 72, 45);
 }
-.blueTest-color1 .perMinus30 {
-  background-color: rgb(205, 72, 60);
+.blueTest-color1 .numMinus30 {
+  background-color: rgb(205, 72, 55);
 }
-.blueTest-color1 .perMinus20 {
-  background-color: rgb(205, 72, 68);
+.blueTest-color1 .numMinus20 {
+  background-color: rgb(205, 72, 65);
 }
-.blueTest-color1 .perMinus10 {
-  background-color: rgb(205, 72, 77);
+.blueTest-color1 .numMinus10 {
+  background-color: rgb(205, 72, 75);
 }
 .blueTest-color2 { padding: 20px 0 0; margin: 0 0 10px; }
 .blueTest-color2 > div {
@@ -10476,68 +10476,68 @@ pre code {
   background-color: rgb(102, 137, 201);
   margin-right: 15px;
 }
-.blueTest-color2 .per100 {
+.blueTest-color2 .numPlus100 {
   background-color: rgb(102, 137, 255);
 }
-.blueTest-color2 .per90 {
+.blueTest-color2 .numPlus90 {
   background-color: rgb(102, 137, 255);
 }
-.blueTest-color2 .per80 {
+.blueTest-color2 .numPlus80 {
   background-color: rgb(102, 137, 255);
 }
-.blueTest-color2 .per70 {
+.blueTest-color2 .numPlus70 {
   background-color: rgb(102, 137, 255);
 }
-.blueTest-color2 .per60 {
+.blueTest-color2 .numPlus60 {
   background-color: rgb(102, 137, 255);
 }
-.blueTest-color2 .per50 {
-  background-color: rgb(102, 137, 255);
+.blueTest-color2 .numPlus50 {
+  background-color: rgb(102, 137, 251);
 }
-.blueTest-color2 .per40 {
-  background-color: rgb(102, 137, 255);
-}
-.blueTest-color2 .per30 {
-  background-color: rgb(102, 137, 255);
-}
-.blueTest-color2 .per20 {
+.blueTest-color2 .numPlus40 {
   background-color: rgb(102, 137, 241);
 }
-.blueTest-color2 .per10 {
+.blueTest-color2 .numPlus30 {
+  background-color: rgb(102, 137, 231);
+}
+.blueTest-color2 .numPlus20 {
   background-color: rgb(102, 137, 221);
 }
-.blueTest-color2 .per0 {
+.blueTest-color2 .numPlus10 {
+  background-color: rgb(102, 137, 211);
+}
+.blueTest-color2 .numPlus0 {
   background-color: rgb(102, 137, 201);
 }
-.blueTest-color2 .perMinus100 {
-  background-color: rgb(102, 137, 0);
-}
-.blueTest-color2 .perMinus90 {
-  background-color: rgb(102, 137, 20);
-}
-.blueTest-color2 .perMinus80 {
-  background-color: rgb(102, 137, 40);
-}
-.blueTest-color2 .perMinus70 {
-  background-color: rgb(102, 137, 60);
-}
-.blueTest-color2 .perMinus60 {
-  background-color: rgb(102, 137, 80);
-}
-.blueTest-color2 .perMinus50 {
+.blueTest-color2 .numMinus100 {
   background-color: rgb(102, 137, 101);
 }
-.blueTest-color2 .perMinus40 {
+.blueTest-color2 .numMinus90 {
+  background-color: rgb(102, 137, 111);
+}
+.blueTest-color2 .numMinus80 {
   background-color: rgb(102, 137, 121);
 }
-.blueTest-color2 .perMinus30 {
+.blueTest-color2 .numMinus70 {
+  background-color: rgb(102, 137, 131);
+}
+.blueTest-color2 .numMinus60 {
   background-color: rgb(102, 137, 141);
 }
-.blueTest-color2 .perMinus20 {
+.blueTest-color2 .numMinus50 {
+  background-color: rgb(102, 137, 151);
+}
+.blueTest-color2 .numMinus40 {
   background-color: rgb(102, 137, 161);
 }
-.blueTest-color2 .perMinus10 {
+.blueTest-color2 .numMinus30 {
+  background-color: rgb(102, 137, 171);
+}
+.blueTest-color2 .numMinus20 {
   background-color: rgb(102, 137, 181);
+}
+.blueTest-color2 .numMinus10 {
+  background-color: rgb(102, 137, 191);
 }
 .blueTest-color3 { padding: 20px 0 0; margin: 0 0 10px; }
 .blueTest-color3 > div {
@@ -10552,68 +10552,68 @@ pre code {
   background-color: rgb(58, 172, 117);
   margin-right: 15px;
 }
-.blueTest-color3 .per100 {
-  background-color: rgb(58, 172, 234);
+.blueTest-color3 .numPlus100 {
+  background-color: rgb(58, 172, 217);
 }
-.blueTest-color3 .per90 {
-  background-color: rgb(58, 172, 222);
+.blueTest-color3 .numPlus90 {
+  background-color: rgb(58, 172, 207);
 }
-.blueTest-color3 .per80 {
-  background-color: rgb(58, 172, 211);
+.blueTest-color3 .numPlus80 {
+  background-color: rgb(58, 172, 197);
 }
-.blueTest-color3 .per70 {
-  background-color: rgb(58, 172, 199);
-}
-.blueTest-color3 .per60 {
+.blueTest-color3 .numPlus70 {
   background-color: rgb(58, 172, 187);
 }
-.blueTest-color3 .per50 {
-  background-color: rgb(58, 172, 176);
+.blueTest-color3 .numPlus60 {
+  background-color: rgb(58, 172, 177);
 }
-.blueTest-color3 .per40 {
-  background-color: rgb(58, 172, 164);
+.blueTest-color3 .numPlus50 {
+  background-color: rgb(58, 172, 167);
 }
-.blueTest-color3 .per30 {
-  background-color: rgb(58, 172, 152);
+.blueTest-color3 .numPlus40 {
+  background-color: rgb(58, 172, 157);
 }
-.blueTest-color3 .per20 {
-  background-color: rgb(58, 172, 140);
+.blueTest-color3 .numPlus30 {
+  background-color: rgb(58, 172, 147);
 }
-.blueTest-color3 .per10 {
-  background-color: rgb(58, 172, 129);
+.blueTest-color3 .numPlus20 {
+  background-color: rgb(58, 172, 137);
 }
-.blueTest-color3 .per0 {
+.blueTest-color3 .numPlus10 {
+  background-color: rgb(58, 172, 127);
+}
+.blueTest-color3 .numPlus0 {
   background-color: rgb(58, 172, 117);
 }
-.blueTest-color3 .perMinus100 {
-  background-color: rgb(58, 172, 0);
+.blueTest-color3 .numMinus100 {
+  background-color: rgb(58, 172, 17);
 }
-.blueTest-color3 .perMinus90 {
-  background-color: rgb(58, 172, 12);
+.blueTest-color3 .numMinus90 {
+  background-color: rgb(58, 172, 27);
 }
-.blueTest-color3 .perMinus80 {
-  background-color: rgb(58, 172, 23);
+.blueTest-color3 .numMinus80 {
+  background-color: rgb(58, 172, 37);
 }
-.blueTest-color3 .perMinus70 {
-  background-color: rgb(58, 172, 35);
-}
-.blueTest-color3 .perMinus60 {
+.blueTest-color3 .numMinus70 {
   background-color: rgb(58, 172, 47);
 }
-.blueTest-color3 .perMinus50 {
-  background-color: rgb(58, 172, 59);
+.blueTest-color3 .numMinus60 {
+  background-color: rgb(58, 172, 57);
 }
-.blueTest-color3 .perMinus40 {
-  background-color: rgb(58, 172, 70);
+.blueTest-color3 .numMinus50 {
+  background-color: rgb(58, 172, 67);
 }
-.blueTest-color3 .perMinus30 {
-  background-color: rgb(58, 172, 82);
+.blueTest-color3 .numMinus40 {
+  background-color: rgb(58, 172, 77);
 }
-.blueTest-color3 .perMinus20 {
-  background-color: rgb(58, 172, 94);
+.blueTest-color3 .numMinus30 {
+  background-color: rgb(58, 172, 87);
 }
-.blueTest-color3 .perMinus10 {
-  background-color: rgb(58, 172, 105);
+.blueTest-color3 .numMinus20 {
+  background-color: rgb(58, 172, 97);
+}
+.blueTest-color3 .numMinus10 {
+  background-color: rgb(58, 172, 107);
 }
 .blueTest-color4 { padding: 20px 0 0; margin: 0 0 10px; }
 .blueTest-color4 > div {
@@ -10628,68 +10628,68 @@ pre code {
   background-color: rgb(205, 163, 72);
   margin-right: 15px;
 }
-.blueTest-color4 .per100 {
-  background-color: rgb(205, 163, 144);
+.blueTest-color4 .numPlus100 {
+  background-color: rgb(205, 163, 172);
 }
-.blueTest-color4 .per90 {
-  background-color: rgb(205, 163, 137);
+.blueTest-color4 .numPlus90 {
+  background-color: rgb(205, 163, 162);
 }
-.blueTest-color4 .per80 {
-  background-color: rgb(205, 163, 130);
+.blueTest-color4 .numPlus80 {
+  background-color: rgb(205, 163, 152);
 }
-.blueTest-color4 .per70 {
+.blueTest-color4 .numPlus70 {
+  background-color: rgb(205, 163, 142);
+}
+.blueTest-color4 .numPlus60 {
+  background-color: rgb(205, 163, 132);
+}
+.blueTest-color4 .numPlus50 {
   background-color: rgb(205, 163, 122);
 }
-.blueTest-color4 .per60 {
-  background-color: rgb(205, 163, 115);
+.blueTest-color4 .numPlus40 {
+  background-color: rgb(205, 163, 112);
 }
-.blueTest-color4 .per50 {
-  background-color: rgb(205, 163, 108);
+.blueTest-color4 .numPlus30 {
+  background-color: rgb(205, 163, 102);
 }
-.blueTest-color4 .per40 {
-  background-color: rgb(205, 163, 101);
+.blueTest-color4 .numPlus20 {
+  background-color: rgb(205, 163, 92);
 }
-.blueTest-color4 .per30 {
-  background-color: rgb(205, 163, 94);
+.blueTest-color4 .numPlus10 {
+  background-color: rgb(205, 163, 82);
 }
-.blueTest-color4 .per20 {
-  background-color: rgb(205, 163, 86);
-}
-.blueTest-color4 .per10 {
-  background-color: rgb(205, 163, 79);
-}
-.blueTest-color4 .per0 {
+.blueTest-color4 .numPlus0 {
   background-color: rgb(205, 163, 72);
 }
-.blueTest-color4 .perMinus100 {
+.blueTest-color4 .numMinus100 {
   background-color: rgb(205, 163, 0);
 }
-.blueTest-color4 .perMinus90 {
-  background-color: rgb(205, 163, 7);
+.blueTest-color4 .numMinus90 {
+  background-color: rgb(205, 163, 0);
 }
-.blueTest-color4 .perMinus80 {
-  background-color: rgb(205, 163, 14);
+.blueTest-color4 .numMinus80 {
+  background-color: rgb(205, 163, 0);
 }
-.blueTest-color4 .perMinus70 {
+.blueTest-color4 .numMinus70 {
+  background-color: rgb(205, 163, 2);
+}
+.blueTest-color4 .numMinus60 {
+  background-color: rgb(205, 163, 12);
+}
+.blueTest-color4 .numMinus50 {
   background-color: rgb(205, 163, 22);
 }
-.blueTest-color4 .perMinus60 {
-  background-color: rgb(205, 163, 29);
+.blueTest-color4 .numMinus40 {
+  background-color: rgb(205, 163, 32);
 }
-.blueTest-color4 .perMinus50 {
-  background-color: rgb(205, 163, 36);
+.blueTest-color4 .numMinus30 {
+  background-color: rgb(205, 163, 42);
 }
-.blueTest-color4 .perMinus40 {
-  background-color: rgb(205, 163, 43);
+.blueTest-color4 .numMinus20 {
+  background-color: rgb(205, 163, 52);
 }
-.blueTest-color4 .perMinus30 {
-  background-color: rgb(205, 163, 50);
-}
-.blueTest-color4 .perMinus20 {
-  background-color: rgb(205, 163, 58);
-}
-.blueTest-color4 .perMinus10 {
-  background-color: rgb(205, 163, 65);
+.blueTest-color4 .numMinus10 {
+  background-color: rgb(205, 163, 62);
 }
 .saturationTest-color1 { padding: 20px 0 0; margin: 0 0 10px; }
 .saturationTest-color1 > div {

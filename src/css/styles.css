@@ -20,11 +20,11 @@ pre {
   position: absolute;
   display: block;
   top: -20px;
-  font-size: .7em;
+  font-size: .6em;
   line-height: 1.2;
-  left: 0;
-  right: 0;
-  width: 100%;
+  white-space: nowrap;
+  left: -10px;
+  right:-10px;
   text-align: center;
 }
 
@@ -351,16 +351,16 @@ pre {
     background-color: $color;
     margin-right: 15px;
   }
-  .minus1 { background-color: color($color alpha(-0.1)); }
-  .minus2 { background-color: color($color alpha(-0.2)); }
-  .minus3 { background-color: color($color alpha(-0.3)); }
-  .minus4 { background-color: color($color alpha(-0.4)); }
-  .minus5 { background-color: color($color alpha(-0.5)); }
-  .minus6 { background-color: color($color alpha(-0.6)); }
-  .minus7 { background-color: color($color alpha(-0.7)); }
-  .minus8 { background-color: color($color alpha(-0.8)); }
-  .minus9 { background-color: color($color alpha(-0.9)); }
-  .minus10 { background-color: color($color alpha(-1)); }
+  .minus1 { background-color: color($color alpha(- 0.1)); }
+  .minus2 { background-color: color($color alpha(- 0.2)); }
+  .minus3 { background-color: color($color alpha(- 0.3)); }
+  .minus4 { background-color: color($color alpha(- 0.4)); }
+  .minus5 { background-color: color($color alpha(- 0.5)); }
+  .minus6 { background-color: color($color alpha(- 0.6)); }
+  .minus7 { background-color: color($color alpha(- 0.7)); }
+  .minus8 { background-color: color($color alpha(- 0.8)); }
+  .minus9 { background-color: color($color alpha(- 0.9)); }
+  .minus10 { background-color: color($color alpha(- 1)); }
 }
 .alphaTest-wrap{
   background: url(bg.png) 0 0 repeat;
@@ -389,18 +389,18 @@ pre {
     background-color: $color;
     margin-right: 15px;
   }
-  .deg30 { background-color: color($color hue(+30deg)); }
-  .deg60 { background-color: color($color hue(+60deg)); }
-  .deg90 { background-color: color($color hue(+90deg)); }
-  .deg120 { background-color: color($color hue(+120deg)); }
-  .deg150 { background-color: color($color hue(+150deg)); }
-  .deg180 { background-color: color($color hue(+180deg)); }
-  .deg210 { background-color: color($color hue(+210deg)); }
-  .deg240 { background-color: color($color hue(+240deg)); }
-  .deg270 { background-color: color($color hue(+270deg)); }
-  .deg300 { background-color: color($color hue(+300deg)); }
-  .deg330 { background-color: color($color hue(+330deg)); }
-  .deg360 { background-color: color($color hue(+360deg)); }
+  .deg30 { background-color: color($color hue(+ 30deg)); }
+  .deg60 { background-color: color($color hue(+ 60deg)); }
+  .deg90 { background-color: color($color hue(+ 90deg)); }
+  .deg120 { background-color: color($color hue(+ 120deg)); }
+  .deg150 { background-color: color($color hue(+ 150deg)); }
+  .deg180 { background-color: color($color hue(+ 180deg)); }
+  .deg210 { background-color: color($color hue(+ 210deg)); }
+  .deg240 { background-color: color($color hue(+ 240deg)); }
+  .deg270 { background-color: color($color hue(+ 270deg)); }
+  .deg300 { background-color: color($color hue(+ 300deg)); }
+  .deg330 { background-color: color($color hue(+ 330deg)); }
+  .deg360 { background-color: color($color hue(+ 360deg)); }
 }
 .hueTest-color1 { @mixin hueTest rgb(205, 72, 85); }
 .hueTest-color2 { @mixin hueTest rgb(102, 137, 201); }
@@ -422,27 +422,27 @@ pre {
     background-color: $color;
     margin-right: 15px;
   }
-  .per100 { background-color: color($color red(+100%)); }
-  .per90 { background-color: color($color red(+90%)); }
-  .per80 { background-color: color($color red(+80%)); }
-  .per70 { background-color: color($color red(+70%)); }
-  .per60 { background-color: color($color red(+60%)); }
-  .per50 { background-color: color($color red(+50%)); }
-  .per40 { background-color: color($color red(+40%)); }
-  .per30 { background-color: color($color red(+30%)); }
-  .per20 { background-color: color($color red(+20%)); }
-  .per10 { background-color: color($color red(+10%)); }
-  .per0 { background-color: color($color red(+0%)); }
-  .perMinus100 { background-color: color($color red(-100%)); }
-  .perMinus90 { background-color: color($color red(-90%)); }
-  .perMinus80 { background-color: color($color red(-80%)); }
-  .perMinus70 { background-color: color($color red(-70%)); }
-  .perMinus60 { background-color: color($color red(-60%)); }
-  .perMinus50 { background-color: color($color red(-50%)); }
-  .perMinus40 { background-color: color($color red(-40%)); }
-  .perMinus30 { background-color: color($color red(-30%)); }
-  .perMinus20 { background-color: color($color red(-20%)); }
-  .perMinus10 { background-color: color($color red(-10%)); }
+  .numPlus100  { background-color: color($color red(+ 100)); }
+  .numPlus90   { background-color: color($color red(+ 90)); }
+  .numPlus80   { background-color: color($color red(+ 80)); }
+  .numPlus70   { background-color: color($color red(+ 70)); }
+  .numPlus60   { background-color: color($color red(+ 60)); }
+  .numPlus50   { background-color: color($color red(+ 50)); }
+  .numPlus40   { background-color: color($color red(+ 40)); }
+  .numPlus30   { background-color: color($color red(+ 30)); }
+  .numPlus20   { background-color: color($color red(+ 20)); }
+  .numPlus10   { background-color: color($color red(+ 10)); }
+  .numPlus0    { background-color: color($color red(+ 0)); }
+  .numMinus100 { background-color: color($color red(- 100)); }
+  .numMinus90  { background-color: color($color red(- 90)); }
+  .numMinus80  { background-color: color($color red(- 80)); }
+  .numMinus70  { background-color: color($color red(- 70)); }
+  .numMinus60  { background-color: color($color red(- 60)); }
+  .numMinus50  { background-color: color($color red(- 50)); }
+  .numMinus40  { background-color: color($color red(- 40)); }
+  .numMinus30  { background-color: color($color red(- 30)); }
+  .numMinus20  { background-color: color($color red(- 20)); }
+  .numMinus10  { background-color: color($color red(- 10)); }
 }
 .redTest-color1 { @mixin redTest rgb(205, 72, 85); }
 .redTest-color2 { @mixin redTest rgb(102, 137, 201); }
@@ -464,27 +464,27 @@ pre {
     background-color: $color;
     margin-right: 15px;
   }
-  .per100 { background-color: color($color green(+100%)); }
-  .per90 { background-color: color($color green(+90%)); }
-  .per80 { background-color: color($color green(+80%)); }
-  .per70 { background-color: color($color green(+70%)); }
-  .per60 { background-color: color($color green(+60%)); }
-  .per50 { background-color: color($color green(+50%)); }
-  .per40 { background-color: color($color green(+40%)); }
-  .per30 { background-color: color($color green(+30%)); }
-  .per20 { background-color: color($color green(+20%)); }
-  .per10 { background-color: color($color green(+10%)); }
-  .per0 { background-color: color($color green(+0%)); }
-  .perMinus100 { background-color: color($color green(-100%)); }
-  .perMinus90 { background-color: color($color green(-90%)); }
-  .perMinus80 { background-color: color($color green(-80%)); }
-  .perMinus70 { background-color: color($color green(-70%)); }
-  .perMinus60 { background-color: color($color green(-60%)); }
-  .perMinus50 { background-color: color($color green(-50%)); }
-  .perMinus40 { background-color: color($color green(-40%)); }
-  .perMinus30 { background-color: color($color green(-30%)); }
-  .perMinus20 { background-color: color($color green(-20%)); }
-  .perMinus10 { background-color: color($color green(-10%)); }
+  .numPlus100  { background-color: color($color green(+ 100)); }
+  .numPlus90   { background-color: color($color green(+ 90)); }
+  .numPlus80   { background-color: color($color green(+ 80)); }
+  .numPlus70   { background-color: color($color green(+ 70)); }
+  .numPlus60   { background-color: color($color green(+ 60)); }
+  .numPlus50   { background-color: color($color green(+ 50)); }
+  .numPlus40   { background-color: color($color green(+ 40)); }
+  .numPlus30   { background-color: color($color green(+ 30)); }
+  .numPlus20   { background-color: color($color green(+ 20)); }
+  .numPlus10   { background-color: color($color green(+ 10)); }
+  .numPlus0    { background-color: color($color green(+ 0)); }
+  .numMinus100 { background-color: color($color green(- 100)); }
+  .numMinus90  { background-color: color($color green(- 90)); }
+  .numMinus80  { background-color: color($color green(- 80)); }
+  .numMinus70  { background-color: color($color green(- 70)); }
+  .numMinus60  { background-color: color($color green(- 60)); }
+  .numMinus50  { background-color: color($color green(- 50)); }
+  .numMinus40  { background-color: color($color green(- 40)); }
+  .numMinus30  { background-color: color($color green(- 30)); }
+  .numMinus20  { background-color: color($color green(- 20)); }
+  .numMinus10  { background-color: color($color green(- 10)); }
 }
 .greenTest-color1 { @mixin greenTest rgb(205, 72, 85); }
 .greenTest-color2 { @mixin greenTest rgb(102, 137, 201); }
@@ -506,27 +506,27 @@ pre {
     background-color: $color;
     margin-right: 15px;
   }
-  .per100 { background-color: color($color blue(+100%)); }
-  .per90 { background-color: color($color blue(+90%)); }
-  .per80 { background-color: color($color blue(+80%)); }
-  .per70 { background-color: color($color blue(+70%)); }
-  .per60 { background-color: color($color blue(+60%)); }
-  .per50 { background-color: color($color blue(+50%)); }
-  .per40 { background-color: color($color blue(+40%)); }
-  .per30 { background-color: color($color blue(+30%)); }
-  .per20 { background-color: color($color blue(+20%)); }
-  .per10 { background-color: color($color blue(+10%)); }
-  .per0 { background-color: color($color blue(+0%)); }
-  .perMinus100 { background-color: color($color blue(-100%)); }
-  .perMinus90 { background-color: color($color blue(-90%)); }
-  .perMinus80 { background-color: color($color blue(-80%)); }
-  .perMinus70 { background-color: color($color blue(-70%)); }
-  .perMinus60 { background-color: color($color blue(-60%)); }
-  .perMinus50 { background-color: color($color blue(-50%)); }
-  .perMinus40 { background-color: color($color blue(-40%)); }
-  .perMinus30 { background-color: color($color blue(-30%)); }
-  .perMinus20 { background-color: color($color blue(-20%)); }
-  .perMinus10 { background-color: color($color blue(-10%)); }
+  .numPlus100  { background-color: color($color blue(+ 100)); }
+  .numPlus90   { background-color: color($color blue(+ 90)); }
+  .numPlus80   { background-color: color($color blue(+ 80)); }
+  .numPlus70   { background-color: color($color blue(+ 70)); }
+  .numPlus60   { background-color: color($color blue(+ 60)); }
+  .numPlus50   { background-color: color($color blue(+ 50)); }
+  .numPlus40   { background-color: color($color blue(+ 40)); }
+  .numPlus30   { background-color: color($color blue(+ 30)); }
+  .numPlus20   { background-color: color($color blue(+ 20)); }
+  .numPlus10   { background-color: color($color blue(+ 10)); }
+  .numPlus0    { background-color: color($color blue(+ 0)); }
+  .numMinus100 { background-color: color($color blue(- 100)); }
+  .numMinus90  { background-color: color($color blue(- 90)); }
+  .numMinus80  { background-color: color($color blue(- 80)); }
+  .numMinus70  { background-color: color($color blue(- 70)); }
+  .numMinus60  { background-color: color($color blue(- 60)); }
+  .numMinus50  { background-color: color($color blue(- 50)); }
+  .numMinus40  { background-color: color($color blue(- 40)); }
+  .numMinus30  { background-color: color($color blue(- 30)); }
+  .numMinus20  { background-color: color($color blue(- 20)); }
+  .numMinus10  { background-color: color($color blue(- 10)); }
 }
 .blueTest-color1 { @mixin blueTest rgb(205, 72, 85); }
 .blueTest-color2 { @mixin blueTest rgb(102, 137, 201); }
@@ -548,27 +548,27 @@ pre {
     background-color: $color;
     margin-right: 15px;
   }
-  .per100 { background-color: color($color saturation(+100%)); }
-  .per90 { background-color: color($color saturation(+90%)); }
-  .per80 { background-color: color($color saturation(+80%)); }
-  .per70 { background-color: color($color saturation(+70%)); }
-  .per60 { background-color: color($color saturation(+60%)); }
-  .per50 { background-color: color($color saturation(+50%)); }
-  .per40 { background-color: color($color saturation(+40%)); }
-  .per30 { background-color: color($color saturation(+30%)); }
-  .per20 { background-color: color($color saturation(+20%)); }
-  .per10 { background-color: color($color saturation(+10%)); }
-  .per0 { background-color: color($color saturation(+0%)); }
-  .perMinus100 { background-color: color($color saturation(-100%)); }
-  .perMinus90 { background-color: color($color saturation(-90%)); }
-  .perMinus80 { background-color: color($color saturation(-80%)); }
-  .perMinus70 { background-color: color($color saturation(-70%)); }
-  .perMinus60 { background-color: color($color saturation(-60%)); }
-  .perMinus50 { background-color: color($color saturation(-50%)); }
-  .perMinus40 { background-color: color($color saturation(-40%)); }
-  .perMinus30 { background-color: color($color saturation(-30%)); }
-  .perMinus20 { background-color: color($color saturation(-20%)); }
-  .perMinus10 { background-color: color($color saturation(-10%)); }
+  .per100 { background-color: color($color saturation(+ 100%)); }
+  .per90 { background-color: color($color saturation(+ 90%)); }
+  .per80 { background-color: color($color saturation(+ 80%)); }
+  .per70 { background-color: color($color saturation(+ 70%)); }
+  .per60 { background-color: color($color saturation(+ 60%)); }
+  .per50 { background-color: color($color saturation(+ 50%)); }
+  .per40 { background-color: color($color saturation(+ 40%)); }
+  .per30 { background-color: color($color saturation(+ 30%)); }
+  .per20 { background-color: color($color saturation(+ 20%)); }
+  .per10 { background-color: color($color saturation(+ 10%)); }
+  .per0 { background-color: color($color saturation(+ 0%)); }
+  .perMinus100 { background-color: color($color saturation(- 100%)); }
+  .perMinus90 { background-color: color($color saturation(- 90%)); }
+  .perMinus80 { background-color: color($color saturation(- 80%)); }
+  .perMinus70 { background-color: color($color saturation(- 70%)); }
+  .perMinus60 { background-color: color($color saturation(- 60%)); }
+  .perMinus50 { background-color: color($color saturation(- 50%)); }
+  .perMinus40 { background-color: color($color saturation(- 40%)); }
+  .perMinus30 { background-color: color($color saturation(- 30%)); }
+  .perMinus20 { background-color: color($color saturation(- 20%)); }
+  .perMinus10 { background-color: color($color saturation(- 10%)); }
 }
 .saturationTest-color1 { @mixin saturationTest rgb(205, 72, 85); }
 .saturationTest-color2 { @mixin saturationTest rgb(102, 137, 201); }
@@ -595,27 +595,27 @@ pre {
     background-color: $color;
     margin-right: 15px;
   }
-  .per100 { background-color: color($color lightness(+100%)); }
-  .per90 { background-color: color($color lightness(+90%)); }
-  .per80 { background-color: color($color lightness(+80%)); }
-  .per70 { background-color: color($color lightness(+70%)); }
-  .per60 { background-color: color($color lightness(+60%)); }
-  .per50 { background-color: color($color lightness(+50%)); }
-  .per40 { background-color: color($color lightness(+40%)); }
-  .per30 { background-color: color($color lightness(+30%)); }
-  .per20 { background-color: color($color lightness(+20%)); }
-  .per10 { background-color: color($color lightness(+10%)); }
-  .per0 { background-color: color($color lightness(+0%)); }
-  .perMinus100 { background-color: color($color lightness(-100%)); }
-  .perMinus90 { background-color: color($color lightness(-90%)); }
-  .perMinus80 { background-color: color($color lightness(-80%)); }
-  .perMinus70 { background-color: color($color lightness(-70%)); }
-  .perMinus60 { background-color: color($color lightness(-60%)); }
-  .perMinus50 { background-color: color($color lightness(-50%)); }
-  .perMinus40 { background-color: color($color lightness(-40%)); }
-  .perMinus30 { background-color: color($color lightness(-30%)); }
-  .perMinus20 { background-color: color($color lightness(-20%)); }
-  .perMinus10 { background-color: color($color lightness(-10%)); }
+  .per100 { background-color: color($color lightness(+ 100%)); }
+  .per90 { background-color: color($color lightness(+ 90%)); }
+  .per80 { background-color: color($color lightness(+ 80%)); }
+  .per70 { background-color: color($color lightness(+ 70%)); }
+  .per60 { background-color: color($color lightness(+ 60%)); }
+  .per50 { background-color: color($color lightness(+ 50%)); }
+  .per40 { background-color: color($color lightness(+ 40%)); }
+  .per30 { background-color: color($color lightness(+ 30%)); }
+  .per20 { background-color: color($color lightness(+ 20%)); }
+  .per10 { background-color: color($color lightness(+ 10%)); }
+  .per0 { background-color: color($color lightness(+ 0%)); }
+  .perMinus100 { background-color: color($color lightness(- 100%)); }
+  .perMinus90 { background-color: color($color lightness(- 90%)); }
+  .perMinus80 { background-color: color($color lightness(- 80%)); }
+  .perMinus70 { background-color: color($color lightness(- 70%)); }
+  .perMinus60 { background-color: color($color lightness(- 60%)); }
+  .perMinus50 { background-color: color($color lightness(- 50%)); }
+  .perMinus40 { background-color: color($color lightness(- 40%)); }
+  .perMinus30 { background-color: color($color lightness(- 30%)); }
+  .perMinus20 { background-color: color($color lightness(- 20%)); }
+  .perMinus10 { background-color: color($color lightness(- 10%)); }
 }
 .lightnessTest-color1 { @mixin lightnessTest rgb(205, 72, 85); }
 .lightnessTest-color2 { @mixin lightnessTest rgb(0, 0, 70); }
@@ -638,27 +638,27 @@ pre {
     background-color: $color;
     margin-right: 15px;
   }
-  .per100 { background-color: color($color whiteness(+100%)); }
-  .per90 { background-color: color($color whiteness(+90%)); }
-  .per80 { background-color: color($color whiteness(+80%)); }
-  .per70 { background-color: color($color whiteness(+70%)); }
-  .per60 { background-color: color($color whiteness(+60%)); }
-  .per50 { background-color: color($color whiteness(+50%)); }
-  .per40 { background-color: color($color whiteness(+40%)); }
-  .per30 { background-color: color($color whiteness(+30%)); }
-  .per20 { background-color: color($color whiteness(+20%)); }
-  .per10 { background-color: color($color whiteness(+10%)); }
-  .per0 { background-color: color($color whiteness(+0%)); }
-  .perMinus100 { background-color: color($color whiteness(-100%)); }
-  .perMinus90 { background-color: color($color whiteness(-90%)); }
-  .perMinus80 { background-color: color($color whiteness(-80%)); }
-  .perMinus70 { background-color: color($color whiteness(-70%)); }
-  .perMinus60 { background-color: color($color whiteness(-60%)); }
-  .perMinus50 { background-color: color($color whiteness(-50%)); }
-  .perMinus40 { background-color: color($color whiteness(-40%)); }
-  .perMinus30 { background-color: color($color whiteness(-30%)); }
-  .perMinus20 { background-color: color($color whiteness(-20%)); }
-  .perMinus10 { background-color: color($color whiteness(-10%)); }
+  .per100 { background-color: color($color whiteness(+ 100%)); }
+  .per90 { background-color: color($color whiteness(+ 90%)); }
+  .per80 { background-color: color($color whiteness(+ 80%)); }
+  .per70 { background-color: color($color whiteness(+ 70%)); }
+  .per60 { background-color: color($color whiteness(+ 60%)); }
+  .per50 { background-color: color($color whiteness(+ 50%)); }
+  .per40 { background-color: color($color whiteness(+ 40%)); }
+  .per30 { background-color: color($color whiteness(+ 30%)); }
+  .per20 { background-color: color($color whiteness(+ 20%)); }
+  .per10 { background-color: color($color whiteness(+ 10%)); }
+  .per0 { background-color: color($color whiteness(+ 0%)); }
+  .perMinus100 { background-color: color($color whiteness(- 100%)); }
+  .perMinus90 { background-color: color($color whiteness(- 90%)); }
+  .perMinus80 { background-color: color($color whiteness(- 80%)); }
+  .perMinus70 { background-color: color($color whiteness(- 70%)); }
+  .perMinus60 { background-color: color($color whiteness(- 60%)); }
+  .perMinus50 { background-color: color($color whiteness(- 50%)); }
+  .perMinus40 { background-color: color($color whiteness(- 40%)); }
+  .perMinus30 { background-color: color($color whiteness(- 30%)); }
+  .perMinus20 { background-color: color($color whiteness(- 20%)); }
+  .perMinus10 { background-color: color($color whiteness(- 10%)); }
 }
 .whitenessTest-color1 { @mixin whitenessTest rgb(205, 72, 85); }
 .whitenessTest-color2 { @mixin whitenessTest rgb(255, 200, 200); }
@@ -680,27 +680,27 @@ pre {
     background-color: $color;
     margin-right: 15px;
   }
-  .per100 { background-color: color($color blackness(+100%)); }
-  .per90 { background-color: color($color blackness(+90%)); }
-  .per80 { background-color: color($color blackness(+80%)); }
-  .per70 { background-color: color($color blackness(+70%)); }
-  .per60 { background-color: color($color blackness(+60%)); }
-  .per50 { background-color: color($color blackness(+50%)); }
-  .per40 { background-color: color($color blackness(+40%)); }
-  .per30 { background-color: color($color blackness(+30%)); }
-  .per20 { background-color: color($color blackness(+20%)); }
-  .per10 { background-color: color($color blackness(+10%)); }
-  .per0 { background-color: color($color blackness(+0%)); }
-  .perMinus100 { background-color: color($color blackness(-100%)); }
-  .perMinus90 { background-color: color($color blackness(-90%)); }
-  .perMinus80 { background-color: color($color blackness(-80%)); }
-  .perMinus70 { background-color: color($color blackness(-70%)); }
-  .perMinus60 { background-color: color($color blackness(-60%)); }
-  .perMinus50 { background-color: color($color blackness(-50%)); }
-  .perMinus40 { background-color: color($color blackness(-40%)); }
-  .perMinus30 { background-color: color($color blackness(-30%)); }
-  .perMinus20 { background-color: color($color blackness(-20%)); }
-  .perMinus10 { background-color: color($color blackness(-10%)); }
+  .per100 { background-color: color($color blackness(+ 100%)); }
+  .per90 { background-color: color($color blackness(+ 90%)); }
+  .per80 { background-color: color($color blackness(+ 80%)); }
+  .per70 { background-color: color($color blackness(+ 70%)); }
+  .per60 { background-color: color($color blackness(+ 60%)); }
+  .per50 { background-color: color($color blackness(+ 50%)); }
+  .per40 { background-color: color($color blackness(+ 40%)); }
+  .per30 { background-color: color($color blackness(+ 30%)); }
+  .per20 { background-color: color($color blackness(+ 20%)); }
+  .per10 { background-color: color($color blackness(+ 10%)); }
+  .per0 { background-color: color($color blackness(+ 0%)); }
+  .perMinus100 { background-color: color($color blackness(- 100%)); }
+  .perMinus90 { background-color: color($color blackness(- 90%)); }
+  .perMinus80 { background-color: color($color blackness(- 80%)); }
+  .perMinus70 { background-color: color($color blackness(- 70%)); }
+  .perMinus60 { background-color: color($color blackness(- 60%)); }
+  .perMinus50 { background-color: color($color blackness(- 50%)); }
+  .perMinus40 { background-color: color($color blackness(- 40%)); }
+  .perMinus30 { background-color: color($color blackness(- 30%)); }
+  .perMinus20 { background-color: color($color blackness(- 20%)); }
+  .perMinus10 { background-color: color($color blackness(- 10%)); }
 }
 .blacknessTest-color1 { @mixin blacknessTest rgb(205, 72, 85); }
 .blacknessTest-color2 { @mixin blacknessTest rgb(102, 137, 201); }
@@ -966,10 +966,10 @@ $baseRed: rgb(205, 72, 85);
 }
 
 .moduleExA-1 {
-  background: color($baseRed lightness(+39%));
+  background: color($baseRed lightness(+ 39%));
 }
 .moduleExA-2 {
-  background: color($baseRed whiteness(+60%) blackness(-18%));
+  background: color($baseRed whiteness(+ 60%) blackness(- 18%));
 }
 .moduleExA-3 {
   background: color($baseRed tint(80%));
@@ -984,10 +984,10 @@ $baseYellow: #e0ce53;
 }
 
 .moduleExB-1 {
-  background: color($baseYellow lightness(+30%) saturation(-5%));
+  background: color($baseYellow lightness(+ 30%) saturation(- 5%));
 }
 .moduleExB-2 {
-  background: color($baseYellow whiteness(+50%) blackness(-10%));
+  background: color($baseYellow whiteness(+ 50%) blackness(- 10%));
 }
 .moduleExB-3 {
   background: color($baseYellow tint(80%));

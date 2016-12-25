@@ -33,11 +33,21 @@ $(function() {
   }());
 
   (function() {
-    var tmpl = $('#tmpl-100ZeroMinus100').html();
+    var tmpl = $('#tmpl-num100ZeroMinus100').html();
     var selectors = [
       '[data-red-test-container]',
       '[data-green-test-container]',
       '[data-blue-test-container]',
+    ].join(',');
+    $(selectors).each(function(i, el) {
+      var $container = $(el);
+      $container.html(tmpl);
+    });
+  }());
+
+  (function() {
+    var tmpl = $('#tmpl-100ZeroMinus100').html();
+    var selectors = [
       '[data-saturation-test-container]',
       '[data-lightness-test-container]',
     ].join(',');
@@ -154,41 +164,65 @@ $(function() {
 </script>
 <script type="text/x-template" id="tmpl-zero100">
   <div data-attach-box-label="base" class="base"></div>
-  <div data-attach-box-label="+0%" class="per0"></div>
-  <div data-attach-box-label="+10%" class="per10"></div>
-  <div data-attach-box-label="+20%" class="per20"></div>
-  <div data-attach-box-label="+30%" class="per30"></div>
-  <div data-attach-box-label="+40%" class="per40"></div>
-  <div data-attach-box-label="+50%" class="per50"></div>
-  <div data-attach-box-label="+60%" class="per60"></div>
-  <div data-attach-box-label="+70%" class="per70"></div>
-  <div data-attach-box-label="+80%" class="per80"></div>
-  <div data-attach-box-label="+90%" class="per90"></div>
-  <div data-attach-box-label="+100%" class="per100"></div>
+  <div data-attach-box-label="+ 0%" class="per0"></div>
+  <div data-attach-box-label="+ 10%" class="per10"></div>
+  <div data-attach-box-label="+ 20%" class="per20"></div>
+  <div data-attach-box-label="+ 30%" class="per30"></div>
+  <div data-attach-box-label="+ 40%" class="per40"></div>
+  <div data-attach-box-label="+ 50%" class="per50"></div>
+  <div data-attach-box-label="+ 60%" class="per60"></div>
+  <div data-attach-box-label="+ 70%" class="per70"></div>
+  <div data-attach-box-label="+ 80%" class="per80"></div>
+  <div data-attach-box-label="+ 90%" class="per90"></div>
+  <div data-attach-box-label="+ 100%" class="per100"></div>
+</script>
+<script type="text/x-template" id="tmpl-num100ZeroMinus100">
+  <div data-attach-box-label="base" class="base"></div>
+  <div data-attach-box-label="+ 100" class="numPlus100"></div>
+  <div data-attach-box-label="+ 90"  class="numPlus90"></div>
+  <div data-attach-box-label="+ 80"  class="numPlus80"></div>
+  <div data-attach-box-label="+ 70"  class="numPlus70"></div>
+  <div data-attach-box-label="+ 60"  class="numPlus60"></div>
+  <div data-attach-box-label="+ 50"  class="numPlus50"></div>
+  <div data-attach-box-label="+ 40"  class="numPlus40"></div>
+  <div data-attach-box-label="+ 30"  class="numPlus30"></div>
+  <div data-attach-box-label="+ 20"  class="numPlus20"></div>
+  <div data-attach-box-label="+ 10"  class="numPlus10"></div>
+  <div data-attach-box-label="+ 0"   class="numPlus0"></div>
+  <div data-attach-box-label="- 10"  class="numMinus10"></div>
+  <div data-attach-box-label="- 20"  class="numMinus20"></div>
+  <div data-attach-box-label="- 30"  class="numMinus30"></div>
+  <div data-attach-box-label="- 40"  class="numMinus40"></div>
+  <div data-attach-box-label="- 50"  class="numMinus50"></div>
+  <div data-attach-box-label="- 60"  class="numMinus60"></div>
+  <div data-attach-box-label="- 70"  class="numMinus70"></div>
+  <div data-attach-box-label="- 80"  class="numMinus80"></div>
+  <div data-attach-box-label="- 90"  class="numMinus90"></div>
+  <div data-attach-box-label="- 100" class="numMinus100"></div>
 </script>
 <script type="text/x-template" id="tmpl-100ZeroMinus100">
   <div data-attach-box-label="base" class="base"></div>
-  <div data-attach-box-label="+100%" class="per100"></div>
-  <div data-attach-box-label="+90%" class="per90"></div>
-  <div data-attach-box-label="+80%" class="per80"></div>
-  <div data-attach-box-label="+70%" class="per70"></div>
-  <div data-attach-box-label="+60%" class="per60"></div>
-  <div data-attach-box-label="+50%" class="per50"></div>
-  <div data-attach-box-label="+40%" class="per40"></div>
-  <div data-attach-box-label="+30%" class="per30"></div>
-  <div data-attach-box-label="+20%" class="per20"></div>
-  <div data-attach-box-label="+10%" class="per10"></div>
-  <div data-attach-box-label="+0%" class="per0"></div>
-  <div data-attach-box-label="-10%" class="perMinus10"></div>
-  <div data-attach-box-label="-20%" class="perMinus20"></div>
-  <div data-attach-box-label="-30%" class="perMinus30"></div>
-  <div data-attach-box-label="-40%" class="perMinus40"></div>
-  <div data-attach-box-label="-50%" class="perMinus50"></div>
-  <div data-attach-box-label="-60%" class="perMinus60"></div>
-  <div data-attach-box-label="-70%" class="perMinus70"></div>
-  <div data-attach-box-label="-80%" class="perMinus80"></div>
-  <div data-attach-box-label="-90%" class="perMinus90"></div>
-  <div data-attach-box-label="-100%" class="perMinus100"></div>
+  <div data-attach-box-label="+ 100%" class="per100"></div>
+  <div data-attach-box-label="+ 90%" class="per90"></div>
+  <div data-attach-box-label="+ 80%" class="per80"></div>
+  <div data-attach-box-label="+ 70%" class="per70"></div>
+  <div data-attach-box-label="+ 60%" class="per60"></div>
+  <div data-attach-box-label="+ 50%" class="per50"></div>
+  <div data-attach-box-label="+ 40%" class="per40"></div>
+  <div data-attach-box-label="+ 30%" class="per30"></div>
+  <div data-attach-box-label="+ 20%" class="per20"></div>
+  <div data-attach-box-label="+ 10%" class="per10"></div>
+  <div data-attach-box-label="+ 0%" class="per0"></div>
+  <div data-attach-box-label="- 10%" class="perMinus10"></div>
+  <div data-attach-box-label="- 20%" class="perMinus20"></div>
+  <div data-attach-box-label="- 30%" class="perMinus30"></div>
+  <div data-attach-box-label="- 40%" class="perMinus40"></div>
+  <div data-attach-box-label="- 50%" class="perMinus50"></div>
+  <div data-attach-box-label="- 60%" class="perMinus60"></div>
+  <div data-attach-box-label="- 70%" class="perMinus70"></div>
+  <div data-attach-box-label="- 80%" class="perMinus80"></div>
+  <div data-attach-box-label="- 90%" class="perMinus90"></div>
+  <div data-attach-box-label="- 100%" class="perMinus100"></div>
 </script>
 <script type="text/x-template" id="tmpl-100ZeroMinus100Zero">
   <div data-attach-box-label="base" class="base"></div>
@@ -203,16 +237,16 @@ $(function() {
   <div data-attach-box-label="20%" class="per20"></div>
   <div data-attach-box-label="10%" class="per10"></div>
   <div data-attach-box-label="0%" class="per0"></div>
-  <div data-attach-box-label="-100%" class="perMinus100"></div>
-  <div data-attach-box-label="-90%" class="perMinus90"></div>
-  <div data-attach-box-label="-80%" class="perMinus80"></div>
-  <div data-attach-box-label="-70%" class="perMinus70"></div>
-  <div data-attach-box-label="-60%" class="perMinus60"></div>
-  <div data-attach-box-label="-50%" class="perMinus50"></div>
-  <div data-attach-box-label="-40%" class="perMinus40"></div>
-  <div data-attach-box-label="-30%" class="perMinus30"></div>
-  <div data-attach-box-label="-20%" class="perMinus20"></div>
-  <div data-attach-box-label="-10%" class="perMinus10"></div>
+  <div data-attach-box-label="- 100%" class="perMinus100"></div>
+  <div data-attach-box-label="- 90%" class="perMinus90"></div>
+  <div data-attach-box-label="- 80%" class="perMinus80"></div>
+  <div data-attach-box-label="- 70%" class="perMinus70"></div>
+  <div data-attach-box-label="- 60%" class="perMinus60"></div>
+  <div data-attach-box-label="- 50%" class="perMinus50"></div>
+  <div data-attach-box-label="- 40%" class="perMinus40"></div>
+  <div data-attach-box-label="- 30%" class="perMinus30"></div>
+  <div data-attach-box-label="- 20%" class="perMinus20"></div>
+  <div data-attach-box-label="- 10%" class="perMinus10"></div>
 </script>
 <script type="text/x-template" id="tmpl-zero100">
   <div data-attach-box-label="base" class="base"></div>
@@ -230,31 +264,31 @@ $(function() {
 </script>
 <script type="text/x-template" id="tmpl-alpha">
   <div data-attach-box-label="base" class="base"></div>
-  <div data-attach-box-label="-0.1" class="minus1"></div>
-  <div data-attach-box-label="-0.2" class="minus2"></div>
-  <div data-attach-box-label="-0.3" class="minus3"></div>
-  <div data-attach-box-label="-0.4" class="minus4"></div>
-  <div data-attach-box-label="-0.5" class="minus5"></div>
-  <div data-attach-box-label="-0.6" class="minus6"></div>
-  <div data-attach-box-label="-0.7" class="minus7"></div>
-  <div data-attach-box-label="-0.8" class="minus8"></div>
-  <div data-attach-box-label="-0.9" class="minus9"></div>
-  <div data-attach-box-label="-1" class="minus10"></div>
+  <div data-attach-box-label="- 0.1" class="minus1"></div>
+  <div data-attach-box-label="- 0.2" class="minus2"></div>
+  <div data-attach-box-label="- 0.3" class="minus3"></div>
+  <div data-attach-box-label="- 0.4" class="minus4"></div>
+  <div data-attach-box-label="- 0.5" class="minus5"></div>
+  <div data-attach-box-label="- 0.6" class="minus6"></div>
+  <div data-attach-box-label="- 0.7" class="minus7"></div>
+  <div data-attach-box-label="- 0.8" class="minus8"></div>
+  <div data-attach-box-label="- 0.9" class="minus9"></div>
+  <div data-attach-box-label="- 1" class="minus10"></div>
 </script>
 <script type="text/x-template" id="tmpl-hue">
   <div data-attach-box-label="base" class="base"></div>
-  <div data-attach-box-label="+30deg" class="deg30"></div>
-  <div data-attach-box-label="+60deg" class="deg60"></div>
-  <div data-attach-box-label="+90deg" class="deg90"></div>
-  <div data-attach-box-label="+120deg" class="deg120"></div>
-  <div data-attach-box-label="+150deg" class="deg150"></div>
-  <div data-attach-box-label="+180deg" class="deg180"></div>
-  <div data-attach-box-label="+210deg" class="deg210"></div>
-  <div data-attach-box-label="+240deg" class="deg240"></div>
-  <div data-attach-box-label="+270deg" class="deg270"></div>
-  <div data-attach-box-label="+300deg" class="deg300"></div>
-  <div data-attach-box-label="+330deg" class="deg330"></div>
-  <div data-attach-box-label="+360deg" class="deg360"></div>
+  <div data-attach-box-label="+ 30deg" class="deg30"></div>
+  <div data-attach-box-label="+ 60deg" class="deg60"></div>
+  <div data-attach-box-label="+ 90deg" class="deg90"></div>
+  <div data-attach-box-label="+ 120deg" class="deg120"></div>
+  <div data-attach-box-label="+ 150deg" class="deg150"></div>
+  <div data-attach-box-label="+ 180deg" class="deg180"></div>
+  <div data-attach-box-label="+ 210deg" class="deg210"></div>
+  <div data-attach-box-label="+ 240deg" class="deg240"></div>
+  <div data-attach-box-label="+ 270deg" class="deg270"></div>
+  <div data-attach-box-label="+ 300deg" class="deg300"></div>
+  <div data-attach-box-label="+ 330deg" class="deg330"></div>
+  <div data-attach-box-label="+ 360deg" class="deg360"></div>
 </script>
 <script type="text/x-template" id="tmpl-blend">
   <div data-attach-box-label="color1" class="color1"></div>
